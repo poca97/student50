@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Website!</title>
+  </head>
+  <body>
+    {% extends "layout.html" %}
+    {% block heading %}
+      First Page
+    {% endblock %}
+    {% block body %}
+    <p>Lorem kdaskdajslkdas dasdasd asdaskjdakjscas  daksldaksd dasd.</p>
+    <a href="{{ url_for('more') }}">See more...</a>
+    {% endblock %}
+  </body>
+</html>
